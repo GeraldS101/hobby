@@ -1,0 +1,41 @@
+.container {
+    border: 1px solid #D44500;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.col {
+    padding: .4em 1.3em;
+    border-right: 1px solid #D44500;
+}
+
+.color-dark {
+    background: #D44500;
+}
+
+.color-light {
+    background: #FE6F5E;
+}
+
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+input.btn {
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background: #A5F883;
+    color: #003A61;
+    margin-bottom: 1em;
+}
+
+.hobby-container {
+    background: #FE5A1D;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
